@@ -1,0 +1,36 @@
+# .gitignore
+
+# Exclude sensitive environment variables and API keys
+.env
+
+# Exclude local virtual environments
+env/
+venv/
+ENV/
+bin/
+lib/
+share/
+Include/
+
+# Exclude raw fashion dataset assets (prevents bloating repo size)
+data/images/*
+!data/images/sample_outfit.jpg   # Keep the lightweight test asset
+
+# Exclude temporary visual crops and outputs
+crops/
+crops_test/
+
+# Exclude Python compiled caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Exclude Jupyter/Colab checkpoints
+.ipynb_checkpoints/
+colab_notebooks/
+
+# Exclude OS-specific metadata files
+.DS_Store
+Thumbs.db

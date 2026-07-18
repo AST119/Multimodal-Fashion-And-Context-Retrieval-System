@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Fashion Search</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>👗 Semantic Fashion Search</h1>
+            <p class="subtitle">Search over fashion catalogs with hybrid embeddings</p>
+        </header>
+
+        <div class="action-panel">
+            <div class="search-box">
+                <input type="text" id="query-input" placeholder="e.g., navy blue jacket in an office setting...">
+                <button id="search-btn">Search</button>
+            </div>
+            <button id="index-btn" class="secondary-btn">🔄 Run Indexing</button>
+        </div>
+
+        <div id="status-message" class="status-box hidden"></div>
+
+        <main class="results-container">
+            <div id="results-grid" class="grid-view">
+                <div class="placeholder-text">Enter your fashion search query above to browse...</div>
+            </div>
+        </main>
+    </div>
+    <script src="/frontend/app.js"></script>
+</body>
+</html>
