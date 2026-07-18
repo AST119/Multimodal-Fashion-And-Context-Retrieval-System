@@ -11,6 +11,8 @@ The system implements a **Hybrid Global-Local Semantic Fusion Architecture** tha
 
 ```
 project/
+├── data/
+    ├── images/
 ├── indexer/
 │   ├── config.py              # Central configurations, parameters, and attribute maps
 │   ├── vocabulary.py          # Expanded Fashionpedia visual categories & context axes
