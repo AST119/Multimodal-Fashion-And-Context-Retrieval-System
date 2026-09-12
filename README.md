@@ -1,7 +1,7 @@
 
 # 👗 Multimodal Fashion & Context Retrieval System
 
-This repository contains the complete implementation of a **Multimodal Fashion & Context Retrieval Engine** designed for the Glance ML Internship Assignment. 
+This repository contains the complete implementation of a **Multimodal Fashion & Context Retrieval Engine** 
 
 The system implements a **Hybrid Global-Local Semantic Fusion Architecture** that decouples visual-semantic scene understanding (settings, vibes, actions, seasons) from precise garment-level attributes (materials, patterns, lengths, colors), resolving the classical compositional binding limitations of vanilla CLIP.
 
